@@ -119,8 +119,7 @@ audio {
 }
 
 #about {
-    padding:50px;
-    margin-top:-50px;
+    width: 800px;
 }
 
 #about img {
@@ -129,6 +128,11 @@ audio {
     margin-bottom:50px;
     margin-top: 50px;
     float:left;
+}
+
+#aboutcontainer {
+    display:flex;
+    justify-content:center;
 }
 
 @media screen and (max-width: 1000px) {
@@ -181,6 +185,17 @@ audio {
 
     .navbar a.invisible {
         display: none;
+    }
+
+    #aboutcontainer {
+        display: auto;
+        justify-content: auto;
+    }
+    
+    #about {
+        width: auto;
+        padding:50px;
+        margin-top:-50px;
     }
 }
   
